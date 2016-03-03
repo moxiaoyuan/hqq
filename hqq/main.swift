@@ -8,7 +8,11 @@
 
 import Foundation
 var a:Int,b:Int,c:Int
+var charactor:Character
 a=100
 b=200
 c=a+b
-print("\(c)")
+for ch in "hello".characters{
+    print(ch)
+}
+print("\(a)+\(b)=\(c)")
