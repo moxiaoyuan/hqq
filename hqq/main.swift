@@ -6,13 +6,9 @@
 //  Copyright (c) 2016年 hqq1. All rights reserved.
 //
 
-import Foundation
-var a:Int,b:Int,c:Int
-var charactor:Character
-a=100
-b=200
-c=a+b
-for ch in "hello".characters{
-    print(ch)
+
+import Cocoa
+var i:Int
+for i=1;i<10;i++ {
+    print("\(i)");
 }
-print("\(a)+\(b)=\(c)")
